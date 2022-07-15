@@ -1,0 +1,303 @@
+:root {
+    --body-background-color: #e5e5e5;
+    --headings-text-color-default: #212121;
+    --text-p-color-default: #757575;
+    --links-text-color-hover: #2196f3;
+    --main-button-background-color-default: #2196f3;
+    --button-background-color-default: #f5f4fa;
+    --buttons-background-color-hover: #188ce8;
+    --buttons-text-color: #fff;
+    --links-text-color-default: #212121;
+    --border-item-list-color: #eeeeee;
+    --background-item-list-color: #fff;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--body-background-color);
+}
+
+/* web logo */
+.weblogo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+    padding: 0px;
+}
+
+.weblogo-head {
+    color: #2196f3;
+}
+
+.list {
+    list-style-type: none;
+    margin: 0px;
+}
+
+.main-nav-a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--links-text-color-default);
+}
+
+.main-nav-a:hover,
+.main-nav-a :focus,
+.header-contacts:hover,
+.header-contacts:focus,
+.footer-contacts:hover,
+.footer-contacts:focus,
+.active {
+    color: var(--links-text-color-hover);
+}
+
+/* Header */
+.header-contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--text-p-color-default);
+}
+
+.page-header {
+    max-width: 1600px;
+    margin: 0px auto;
+    background-color: #fff;
+}
+
+.main-title {
+    margin: 0px auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.hero {
+    max-width: 1600px;
+    margin: 0px auto;
+    background-color: #2f303a;
+}
+
+.order {
+    cursor: pointer;
+    background-color: var(--main-button-background-color-default);
+    border: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--buttons-text-color);
+}
+
+.order:hover,
+.order:focus {
+    background-color: var(--buttons-background-color-hover);
+}
+
+.main-content {
+    max-width: 1600px;
+    margin: 0px auto;
+    background-color: #fff;
+}
+
+/* benefits */
+
+.section-benefits {
+    max-width: 1600px;
+    margin: 0px auto;
+    background-color: #fff;
+}
+
+.benefits {
+    max-width: 1170px;
+}
+
+.benefits-header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--headings-text-color-default);
+}
+
+.benefits-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--text-p-color-default);
+}
+
+/* Speciality */
+.speciality {
+    max-width: 1600px;
+    background-color: #fff;
+}
+
+.speciality-header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--headings-text-color-default);
+}
+
+.speciality-list {
+    max-width: 1170px;
+}
+
+/* Team */
+
+.team {
+    max-width: 1600px;
+    background-color: #f5f4fa;
+}
+
+.team-list {
+}
+
+.team-header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--headings-text-color-default);
+}
+
+.team-card {
+    height: 368px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.full-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--headings-text-color-default);
+}
+
+.team-card-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-p-color-default);
+}
+
+footer {
+    margin: 0px auto;
+    max-width: 1600px;
+    background-color: #2f303a;
+}
+
+.footer-address a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-address p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
+
+.weblogo-footer {
+    color: #fff;
+}
+
+/* -------------------Portfolio------------------- */
+
+.filters-buttons {
+    cursor: pointer;
+    border: 0px;
+    border-radius: 4px;
+    background-color: var(--button-background-color-default);
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--links-text-color-default);
+}
+
+.selected,
+.filters-buttons:hover {
+    background-color: var(--main-button-background-color-default);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: 0px;
+    color: var(--buttons-text-color);
+}
+
+.portfolio-headers {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--headings-text-color-default);
+}
+
+.porfolio-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--text-p-color-default);
+}
+
+.portfolio-item {
+    background-color: var(--background-item-list-color);
+    border: 1px solid var(--border-item-list-color);
+}
